@@ -1,0 +1,11 @@
+.bundle/
+.vagrant/
+Gemfile.lock
+Vagrantfile
+packer_cache/
+output-rails64-vbox/
+output-rails64-vmware/
+vendor/
+.kitchen/
+rails64-vbox.box
+rails64-vmware.box
