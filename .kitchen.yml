@@ -1,0 +1,22 @@
+---
+driver:
+  name: vagrant
+
+provisioner:
+  name: shell
+
+platforms:
+  - name: rails64-vbox 
+    driver:
+      box: rails64-vbox
+      provider: virtualbox
+  - name: rails64-vmware
+    driver:
+      box: rails64-vmware
+      provider: vmware_desktop
+
+verifier:
+  name: inspec
+
+suites:
+  - name: default
