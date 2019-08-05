@@ -14,3 +14,7 @@ gem list -i rails || {
 
 # Update gems
 gem update
+
+# Fix fileutil's error
+gem uninstall fileutils
+gem update --default
